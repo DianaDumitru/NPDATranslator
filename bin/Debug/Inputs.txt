@@ -1,0 +1,20 @@
+﻿States:
+q0 q1 q2
+Initial state:
+q0
+Final states:
+q2
+Input alphabet:
+a b
+Output alphabet:
+1 2 3
+Stack alphabet:
+s a b
+Initial stack symbol:
+Z
+Transitions:
+q0 L Z q1 sZ L
+q1 L s q1 asbs 1 q1 bsas 2 q1 L 3
+q1 a a q1 L L
+q1 b b q1 L L
+q1 L Z q2 Z L
